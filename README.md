@@ -1,2 +1,2 @@
-# TechnicalTest
+# SportsApp
 Tennis players stats
