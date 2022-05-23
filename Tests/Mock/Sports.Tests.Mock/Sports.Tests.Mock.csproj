@@ -21,7 +21,10 @@
 
   <ItemGroup>
     <Folder Include="Equalizer\" />
-    <Folder Include="Provider\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Domain\Sports.Domain\Sports.Domain.csproj" />
   </ItemGroup>
 
 </Project>

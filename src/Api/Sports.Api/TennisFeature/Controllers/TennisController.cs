@@ -17,6 +17,7 @@ namespace Sports.Api.TennisFeature.Controllers
     public class TennisController : ControllerBase
     {
         private readonly ITennisHandler _tennisHandler;
+        // Not used here, but may be used later ...
         private readonly ILogger<TennisController> _logger;
         public TennisController(ITennisHandler tennisHandler, ILogger<TennisController> logger)
         {
