@@ -9,21 +9,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D8DE6C5E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{7D71DCD2-9546-423C-9883-F7D23AB4E9A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sports.Api", "src\Api\Sports.Api\Sports.Api.csproj", "{D68C74CD-5938-4C62-A55F-4E5B3FB9BF9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sports.Api", "src\Api\Sports.Api\Sports.Api.csproj", "{D68C74CD-5938-4C62-A55F-4E5B3FB9BF9D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CD72B696-FE4F-4A6B-A349-55BE24792F10} = {CD72B696-FE4F-4A6B-A349-55BE24792F10}
+		{7A1B34DD-419E-4088-B046-70A6D340FE1F} = {7A1B34DD-419E-4088-B046-70A6D340FE1F}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sports.Domain", "src\Domain\Sports.Domain\Sports.Domain.csproj", "{7A1B34DD-419E-4088-B046-70A6D340FE1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sports.Domain", "src\Domain\Sports.Domain\Sports.Domain.csproj", "{7A1B34DD-419E-4088-B046-70A6D340FE1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sports.Infrastructure", "src\Infrastructure\Sports.Infrastructure\Sports.Infrastructure.csproj", "{CD72B696-FE4F-4A6B-A349-55BE24792F10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sports.Infrastructure", "src\Infrastructure\Sports.Infrastructure\Sports.Infrastructure.csproj", "{CD72B696-FE4F-4A6B-A349-55BE24792F10}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7A1B34DD-419E-4088-B046-70A6D340FE1F} = {7A1B34DD-419E-4088-B046-70A6D340FE1F}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sports.Api.Tests.Unit", "Tests\Unit\Api\Sports.Api.Tests.Unit\Sports.Api.Tests.Unit.csproj", "{29EBEB29-126A-4655-99E1-1E4BF1BA4E14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sports.Api.Tests.Unit", "Tests\Unit\Api\Sports.Api.Tests.Unit\Sports.Api.Tests.Unit.csproj", "{29EBEB29-126A-4655-99E1-1E4BF1BA4E14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sports.Domain.Tests.Domain", "Tests\Unit\Domain\Sports.Domain.Tests.Domain\Sports.Domain.Tests.Domain.csproj", "{C3E389AA-7D7B-4704-90F8-486F52F4AE78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sports.Domain.Tests.Domain", "Tests\Unit\Domain\Sports.Domain.Tests.Domain\Sports.Domain.Tests.Domain.csproj", "{C3E389AA-7D7B-4704-90F8-486F52F4AE78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sports.Infrastructure.Tests.Unit", "Tests\Unit\Infrastructure\Sports.Infrastructure.Tests.Unit\Sports.Infrastructure.Tests.Unit.csproj", "{9247163F-AEB3-4A47-90A0-82CF15028C34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sports.Infrastructure.Tests.Unit", "Tests\Unit\Infrastructure\Sports.Infrastructure.Tests.Unit\Sports.Infrastructure.Tests.Unit.csproj", "{9247163F-AEB3-4A47-90A0-82CF15028C34}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mock", "Mock", "{ECDB0F2A-48F8-42E9-9AF1-4581E62B73E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sports.Tests.Mock", "Tests\Mock\Sports.Tests.Mock\Sports.Tests.Mock.csproj", "{2CA42E58-54BA-4C53-8B41-F664838E9F73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sports.Tests.Mock", "Tests\Mock\Sports.Tests.Mock\Sports.Tests.Mock.csproj", "{2CA42E58-54BA-4C53-8B41-F664838E9F73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
